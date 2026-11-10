@@ -28,8 +28,7 @@ Spotify features require a Spotify Developer application.
 3. Open the app's Spotify setup section in Song Vector Map and enter the Client ID when prompted.
 4. Add the exact URL where the app is hosted to the Spotify app's Redirect URIs. For GitHub Pages, use:
    https://riddhivd5.github.io/song-vector-map/
-   If you use a custom domain, register that exact URL instead. The redirect URI must match the URL used by the app.
-The app uses Spotify's Authorization Code flow with PKCE. Do not put a Spotify Client Secret in this client-side project. Spotify account/app eligibility and access requirements may change; check the current Spotify Developer Dashboard guidance if playlist creation is unavailable.
+   
 Data
 The song collection is embedded in the HTML file. The interface credits the Spotify Tracks Dataset (Kaggle) as its data source. Track availability and Spotify API behaviour may change over time.
 Technologies
