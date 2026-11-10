@@ -12,7 +12,7 @@ Features
 Try it online
 When GitHub Pages is enabled, visit:
 - https://riddhivd5.github.io/song-vector-map/
-If a custom domain is configured, that domain can be used instead.
+
 Run locally
 This is a self-contained HTML application; no build step or package installation is required.
 1. Download or clone this repository.
@@ -20,7 +20,7 @@ This is a self-contained HTML application; no build step or package installation
 3. For Spotify sign-in, serve the page over HTTP rather than opening it as a file:// URL. For example, with Python installed, run this from the project folder:
    python -m http.server 8000
 4. Open http://127.0.0.1:8000 in your browser.
-The included start-map.bat file can also be used on Windows to start the local server, if it is present in your copy.
+
 Spotify setup
 Spotify features require a Spotify Developer application.
 1. Create an app in the Spotify Developer Dashboard.
